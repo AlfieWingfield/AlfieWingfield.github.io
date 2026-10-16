@@ -4,7 +4,7 @@ import { ChevronDown, ExternalLink } from "lucide-react";
 import uooLogo from "../imports/UoO.jpg";
 import jcoLogo from "../imports/jco.png";
 import cdtLogo from "../imports/CDT_logo.png";
-import profilePhoto from "../assets/profile/CDT_Photo_AW.jpg";
+import profilePhoto from "../assets/profile/polaroid-profile.jpg";
 import projectWgm from "../assets/projects/wgm.jpg";
 import projectTc from "../assets/projects/tc_lab.jpg";
 import workLsi from "../assets/works/NatSci_Logo.png";
@@ -446,7 +446,7 @@ function AboutPage() {
       {/* Header: photo + name + bio */}
       <div className="flex flex-col sm:flex-row gap-10 items-start mb-14">
         <div className="w-64 flex-shrink-0">
-          <img src={profilePhoto} alt="Alfie Wingfield" className="w-full aspect-square object-cover rounded" />
+          <img src={profilePhoto} alt="Alfie Wingfield" className="w-full h-auto" />
         </div>
         <div className="flex flex-col">
           <h2
